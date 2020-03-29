@@ -2,9 +2,9 @@
 //  ViewController.swift
 //  Shamaz
 //
-//  Created by SreekalaKutty on 3/7/20.
-//  Copyright © 2020 sree. All rights reserved.
-//  Sree - Project 3
+//  Created by Skala on 3/7/20.
+//  Copyright © 2020 ree. All rights reserved.
+//  Project 3
 
 
 // TODO : add comments, add more options, beautify, add constraints
