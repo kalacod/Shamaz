@@ -4,7 +4,7 @@
 //
 //  Created by SreekalaKutty on 3/7/20.
 //  Copyright © 2020 sree. All rights reserved.
-//
+//  Sree - Project 3
 
 
 // TODO : add comments, add more options, beautify, add constraints
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // Set default text for the prompt label
-        promptText.text = "Prompt appears here"
+        promptText.text = ""
     }
     
     @IBAction func pastExperienceButton (_ sender: Any) {
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     @IBAction func nextButton(_ sender: Any) {
 
         // reset the label text for the next user
-        promptText.text = "Select one of the above."
+        promptText.text = "Next Player \nSelect one of the above."
 
     }
 

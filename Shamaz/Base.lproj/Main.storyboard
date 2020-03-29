@@ -16,85 +16,99 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXZ-42-plL">
-                                <rect key="frame" x="26" y="103" width="266" height="41"/>
-                                <color key="backgroundColor" red="0.62634815852975412" green="0.98039215690000003" blue="0.60466152460111411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="55" y="143" width="210" height="41"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="BgB-3z-mZ1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <state key="normal" title="Future DREAM">
-                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="futureDreamButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PhP-pg-Y8j"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l22-4n-0Nu">
-                                <rect key="frame" x="35" y="180" width="265" height="38"/>
-                                <color key="backgroundColor" red="0.26161766573930167" green="1" blue="0.93010903895943797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="32" y="224" width="256" height="38"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="TGg-EN-Sdo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <state key="normal" title="Past REFLECTION">
-                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="pastExperienceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DE5-Di-XfR"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wait ..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGS-e6-Xb8">
-                                <rect key="frame" x="35" y="251" width="269" height="83"/>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGS-e6-Xb8">
+                                <rect key="frame" x="10" y="282" width="300" height="83"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="83" id="aBi-oY-0SJ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="16"/>
-                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.85444307554188048" blue="0.220612196379324" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNa-cQ-phi">
-                                <rect key="frame" x="35" y="378" width="269" height="48"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="NEXT">
-                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2In-0z-R60"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell A Story:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clB-xc-AJL">
-                                <rect key="frame" x="20" y="35" width="284" height="23"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell A Tale:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clB-xc-AJL">
+                                <rect key="frame" x="109" y="20" width="102.5" height="23"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="23" id="Jxo-hy-kxm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
-                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNa-cQ-phi">
+                                <rect key="frame" x="113.5" y="524" width="93" height="24"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2In-0z-R60"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstItem="l22-4n-0Nu" firstAttribute="top" secondItem="yXZ-42-plL" secondAttribute="bottom" constant="36" id="2pB-Dw-NTQ"/>
-                            <constraint firstItem="sGS-e6-Xb8" firstAttribute="trailing" secondItem="clB-xc-AJL" secondAttribute="trailing" id="8oD-9F-OD7"/>
-                            <constraint firstItem="clB-xc-AJL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="8wz-nM-VsR"/>
-                            <constraint firstItem="yXZ-42-plL" firstAttribute="top" secondItem="clB-xc-AJL" secondAttribute="bottom" constant="45" id="CnR-gX-RvZ"/>
-                            <constraint firstItem="sGS-e6-Xb8" firstAttribute="leading" secondItem="l22-4n-0Nu" secondAttribute="leading" id="Kdh-ci-Cj3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yNa-cQ-phi" secondAttribute="bottom" constant="142" id="MLI-Ph-fqO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yXZ-42-plL" secondAttribute="trailing" constant="28" id="MwG-0K-PzT"/>
-                            <constraint firstItem="clB-xc-AJL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Odn-zq-NG6"/>
-                            <constraint firstItem="yXZ-42-plL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="Vlv-zU-9xv"/>
-                            <constraint firstItem="l22-4n-0Nu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="fJl-Nh-JxU"/>
-                            <constraint firstItem="sGS-e6-Xb8" firstAttribute="leading" secondItem="yNa-cQ-phi" secondAttribute="leading" id="jUh-gO-MlW"/>
-                            <constraint firstItem="sGS-e6-Xb8" firstAttribute="top" secondItem="l22-4n-0Nu" secondAttribute="bottom" constant="33" id="mMX-72-wNA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l22-4n-0Nu" secondAttribute="trailing" constant="20" id="o9f-DT-mec"/>
-                            <constraint firstItem="sGS-e6-Xb8" firstAttribute="trailing" secondItem="yNa-cQ-phi" secondAttribute="trailing" id="rCi-oY-b80"/>
-                            <constraint firstItem="clB-xc-AJL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sOO-sy-8rM"/>
-                            <constraint firstItem="yNa-cQ-phi" firstAttribute="top" secondItem="sGS-e6-Xb8" secondAttribute="bottom" constant="44" id="ud2-Fr-85T"/>
+                            <constraint firstItem="clB-xc-AJL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="7cN-2K-F5B"/>
+                            <constraint firstItem="yXZ-42-plL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="CqX-vg-smQ"/>
+                            <constraint firstItem="yXZ-42-plL" firstAttribute="top" secondItem="clB-xc-AJL" secondAttribute="bottom" constant="100" id="Hto-KB-ino"/>
+                            <constraint firstItem="l22-4n-0Nu" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="L5K-VN-nY9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sGS-e6-Xb8" secondAttribute="trailing" constant="10" id="MdH-Xq-rCs"/>
+                            <constraint firstItem="sGS-e6-Xb8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Nm0-Me-beB"/>
+                            <constraint firstItem="sGS-e6-Xb8" firstAttribute="top" secondItem="l22-4n-0Nu" secondAttribute="bottom" constant="20" id="PRf-cZ-aaz"/>
+                            <constraint firstItem="sGS-e6-Xb8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Uqm-VL-lKV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yNa-cQ-phi" secondAttribute="bottom" constant="20" id="V5W-FA-eAS"/>
+                            <constraint firstItem="clB-xc-AJL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VXw-s5-2dv"/>
+                            <constraint firstItem="yNa-cQ-phi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dsJ-V3-cJM"/>
+                            <constraint firstItem="l22-4n-0Nu" firstAttribute="top" secondItem="yXZ-42-plL" secondAttribute="bottom" constant="40" id="vTl-5e-93V"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
